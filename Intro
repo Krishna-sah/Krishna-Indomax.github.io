@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indomax Mult Trades.</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #cef5f0;
+        }
+        table {
+            border-spacing: 0;
+        }
+        td {
+            padding: 0;
+        }
+        img {
+            border: 0;
+        }
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cef5f0;
+            padding-bottom: 60px;
+        }
+        .main {
+            background-color: #f0f8f7;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #341314;
+        }
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+        }
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+        .Banner {
+            background-image: url(img/Banner2.webp);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 350px;
+            color: #f0f8f7;
+        } 
+        .Banner .padding {
+            padding: 30px;
+            text-align: center;
+        }
+        .Banner .content {
+            font-size: 15px;
+            
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            line-height: 20px;
+        }
+        .Banner .button {
+            background-color: #99d4c0;
+            color: #f0f8f7;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button-about-us {
+            background-color: #99d4c0;
+            color: #f0f8f7;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .three-columns {
+            color: #341314;
+            text-align: center;
+            width: 100%;
+        }
+        .three-columns .columns {
+            width: 100%;
+            max-width: 190px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+
+<table class="main" width="100%">
+
+    <!--Top border -->    
+
+    <tr>
+        <td style="background-color: #341314;" width="100%" height="8"></td>
+    </tr>
+
+    <!--Brand logo and Social links Two-columns -->    
+    
+    <tr>
+        <td style="padding: 15px 0 4px;">
+
+            <table width="100%">
+                <tr>
+                    <td class="two-columns">
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <table class="column" style="padding: 0 60px 20px;">
+                                        <tr>
+                                            <td>
+                                                <a href="http://www.indomax-multitrades.com/"><img src="img/brandname.png" alt="Indomax Multitrades" width="180"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="column" style="padding: 0 75px 20px;">
+                                        <tr>
+                                            <td>
+                                                <a href="https://www.facebook.com/IndoMax-multitrades-149302112171505"><img src="img/facebook.png" alt="Facebook" width="50"></a>
+                                                <a href="https://studio.youtube.com/channel/UC_hA0WSfVxizHQ0QYJK2K4A"><img src="img/youtube.png" alt="youtube" width="50"></a>
+                                                <a href="https://www.linkedin.com/in/bashirpathan/"><img src="img/linkedin-90.png" alt="linkedin" width="50"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+
+    <!-- Banner -->    
+    
+    <tr>
+        <td>
+            <table  class="Banner"> 
+                <tr>
+                    <td class="padding">
+                        <p class="content" style="font-size: 20px;font-weight: bold;">
+                                INDOMAX MULTITRADES
+                        </p>
+                        <P class="content" style="padding: 0 120px 20px;font-size: 16px;"> 
+                                Illuminate Your World with Certified Bajaj Illumination Products
+                        </P>
+                        <a href="http://www.indomax-multitrades.com/" class="button">DISCOVER MORE</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- About US -->    
+
+    <tr>
+        <td style="padding: 10px 0 40px;">
+            <table width="100%">
+                <tr>
+                    <td style="text-align: center; padding: 15px;">
+                        <p style="font-size: 20px; font-weight: bold;">ABOUT US</p>
+                        <p style="font-size: 16px; line-height: 20px; padding-bottom: 10px;">Established in 2015 by Mr. Bashir Ahmed Pathan, Indomax Multi Trades is a leading supplier and trader of a wide range of high-quality lighting solutions and electrical products. Based in Pune, Maharashtra, our commitment to excellence and customer satisfaction has earned us a reputable position in the industry.</p>
+                        <p style="font-size: 16px; line-height: 20px;padding-bottom: 30px;">We believe in meeting customer’s expectations by providing them with genuine quality products and prompt services at very competitive prices. We intend to make working with INDOMAX as easy as possible and empower our customers.</p>
+                        <a href="http://www.indomax-multitrades.com/about-us.htm/" class="button-about-us" style="padding-bottom: 10px;">MORE </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Our Values Three-columns -->    
+
+    <tr>
+        <td style="padding: 12px 0 10px;">
+            <table width="100%">
+                <tr>
+                    <td class="three-columns">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/Logistic-team.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Strong Logistic Team</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">Our organization is equipped with a commendable logistic team that can deliver bulk quantities on a timely basis. The availability of ample commercial vehicles renders the team capable of making deliveries to the far-flung clients.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/leadership.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Leadership</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">Our esteemed organization is backed by a team of deft professionals, which makes sure that the offered products are best in quality and long-lasting. Mr. Bashir Ahmed Pathan is the mentor of our organization.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/Mission.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Mission</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">We are based in Pune, Maharashtra and put forth an authentic range at the utmost cost-effective rates. We make sure that our offered assortment is in complete sync with the norms laid down by the industry.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Our Services Three-columns -->   
+     
+    <tr>
+        <td style="padding: 12px 0 10px;">
+            <table width="100%">
+                <tr>
+                    <td class="three-columns">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/Logistic-team.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Strong Logistic Team</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">Our organization is equipped with a commendable logistic team that can deliver bulk quantities on a timely basis. The availability of ample commercial vehicles renders the team capable of making deliveries to the far-flung clients.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/leadership.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Leadership</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">Our esteemed organization is backed by a team of deft professionals, which makes sure that the offered products are best in quality and long-lasting. Mr. Bashir Ahmed Pathan is the mentor of our organization.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="columns" style="padding: 0 15px 10px;">
+                                        <tr>
+                                            <td>
+                                                <img src="img/Mission.png" alt="Strong Logistic Team" width="80px">
+                                                <p style="font-weight: bold; font-size: 20px;">Mission</p>
+                                                <p style="font-size: 14px;line-height: 17px; word-spacing: 4px;">We are based in Pune, Maharashtra and put forth an authentic range at the utmost cost-effective rates. We make sure that our offered assortment is in complete sync with the norms laid down by the industry.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- inquiry -->    
+
+
+    <!-- bottom line-->    
+
+</table>
+</div>
+</body>
+</html>
