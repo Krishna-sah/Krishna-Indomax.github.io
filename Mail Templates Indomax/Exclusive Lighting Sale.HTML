@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Lighting Inventory Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f7; /* Light mint green background */
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #ffffff; /* White background for content */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #004d40; /* Dark teal for header */
+            color: #ffffff; /* White text for header */
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px;
+            height: auto;
+        }
+        .hero {
+            background-image: url('https://i.imgur.com/Wgf9b1T.png');
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: #ffffff; /* White text for hero section */
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #bbfaef; /* Dark teal for the hero heading */
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero p {
+            margin: 10px 0 20px;
+            font-size: 18px;
+            color: #bbfaef; /* Light teal for the hero paragraph */
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+	.hero img {
+            width: 200px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 20px; /* Add spacing below the logo */
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #004d40; /* Dark teal for buttons */
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #00796b; /* Slightly lighter teal on hover */
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #004d40; /* Dark teal for section headings */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333; /* Dark grey for body text */
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+	.product-table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+        .product-cell {
+            width: 50%;
+	     height: 400px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .product-cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            background-color: #ffffff; /* White background for cards */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+	     height: 300px; 
+        }
+        .product-card img {
+            width: 50%;
+            height: auto;
+            display: block;
+            border-right: 1px solid #ddd;
+        }
+        .product-card-content {
+            padding: 15px;
+            flex: 1;
+        }
+        .product-card-content h2 {
+            font-size: 20px;
+            color: #004d40; /* Dark teal for card headings */
+            margin: 0 0 10px;
+        }
+        .product-card-content p {
+            font-size: 16px;
+            color: #333; /* Dark grey for card text */
+            line-height: 1.6;
+            margin: 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d40; /* Dark teal for footer */
+            color: white;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #e0f2f1; /* Light teal for footer links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section 
+        <div class="header">
+            <img src="https://i.imgur.com/z1L7xwn.png" alt="Company Logo">
+        </div>
+	-->
+        <!-- Hero Section -->
+        <div class="hero">
+	    <img src="https://i.imgur.com/z1L7xwn.png" alt="Company Logo">
+            <h1>Exclusive Lighting Sale - Limited Time Offer!</h1>
+            <p>Discover our premium lighting products at unbeatable prices. Check out our featured items below:</p>
+            <a href="http://www.indomax-multitrades.com/" class="button">Discover More</a>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="content">
+	<table class="product-table">
+                <tr>
+                    <td class="product-cell">
+            <div class="product-cards">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/LHt1y3b.png" alt="BATTENS - DAWN">
+                    <div class="product-card-content">
+                        <h2>BATTENS - DAWN </h2>
+                        <p>Extruded Aluminium LED batten (4ft) for surface and pendant applications.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the Batten Dawn shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+
+		<td class="product-cell">
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/VjqMhIh.png" alt="VERDANT PRO">
+                    <div class="product-card-content">
+                        <h2>VERDANT PRO</h2>
+                        <p>AL PDC Housing LED wellglass luminaires with PC Clear diffuser. Equipped with 4 kV in-built surge protection, IP66 Protection rating. Eye bolt and cradle is provided for mounting.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the VERDANT PRO shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+	</tr>
+	<tr>
+		<td class="product-cell">
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/IjvtikF.png" alt="LED BATTEN">
+                    <div class="product-card-content">
+                        <h2>LED BATTEN</h2>
+                        <p>Engineering plastic batten with white acrylic cover sleek design & high
+effiency for wall & surface mounted applications.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the LED BATTEN shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+		<td class="product-cell">
+		<!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/4RwWdcV.png" alt="LUXBLADE">
+                    <div class="product-card-content">
+                        <h2>LUXBLADE</h2>
+                        <p>PC Housing - PC Diffuser weatherproof LED batten luminaire with 110 lm/W efficacy, equipped with 4 kV in-built surge protection, IP66 Protection rating, Durable industrial lighting solution luminaire with integrated LED channel suitable for surface and suspended mounting.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the LUXBLADE shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+	</tr>
+	<tr>
+		<td class="product-cell">
+		<!-- Product 5 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/zEbxtPH.png" alt="Alteza">
+                    <div class="product-card-content">
+                        <h2>ALTEZA</h2>
+                        <p>Delivers excellent illumination & comfort in high ceiling areas. Long life & photobiologically safe LEDs. High performance electronic driver ensures zero maintenance. No harmful UV & IR radiations. Environment friendly as it does not contain Mercury. Instant light with low running temperatures.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the Alteza shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+		<td class="product-cell">
+		<!-- Product 6 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/YtnjRMc.png" alt="LUCID">
+                    <div class="product-card-content">
+                        <h2>LUCID</h2>
+                        <p>AL PDC housing LED Canopy Luminaire with toughened glass. 120 lm/W efficacy. Equipped with only 4 screws for ease of maintenance, 4 kV in-built and 10 kV external Surge protection provided for additional safety, IP66 Protection rating & eye bolt. </p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the LUCID shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+	</tr>
+	<tr>
+		<td class="product-cell">
+		<!-- Product 7 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/6nmL32G.png" alt="LUMILINE PLUS NEO">
+                    <div class="product-card-content">
+                        <h2>LUMILINE PLUS NEO</h2>
+                        <p>Basic all purpose surface and wall mounted LED batten with aluminum housing & integrated electronic driver.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the LUMILINE PLUS NEO shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+		<td class="product-cell">
+		<!-- Product 8 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/rXHMDeO.png" alt="EDGE NXT LED">
+                    <div class="product-card-content">
+                        <h2>EDGE NXT LED</h2>
+                        <p>Next Generation LED street light with pressure die-cast housing, high performance polycarbonate optics and IP66 ingress protection. Top opening driver cover for easy maintenance. Ecacy 120 lm/W.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the EDGE NXT LED shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+	</tr>
+	<tr>
+		<td class="product-cell">
+		<!-- Product 9 -->
+                <div class="product-card">
+                    <img src="https://i.imgur.com/3riYrnV.png" alt="BAJAJ PRAZE 400W">
+                    <div class="product-card-content">
+                        <h2>BAJAJ PRAZE 400W</h2>
+                        <p>High performance floodlight luminaire with pressure die-cast housing, toughened glass and econdary lens optics with IP66 ingress protection. Efficacy 120 lm/W.</p>
+                        <a href="mailto:info@indomaxmulttraders.com?subject=Product Inquiry&body=I am interested in the BAJAJ PRAZE 400W shown in the email." class="button">Buy Now</a>
+                    </div>
+                </div>
+		</td>
+	</tr>
+		</div>
+	</table>
+                
+                <!-- Add more products as needed -->
+            
+
+            <!-- Inquiry Section -->
+            <h2>Have an Inquiry?</h2>
+            <p>If you have any questions or would like to discuss how we can assist with your lighting needs, please don't hesitate to reach out. We are here to help you find the perfect solution for your project.</p>
+            <a href="mailto:inquiry@indomaxmulttraders.com" class="button">Inquire Now</a>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>Contact Us</p>
+            <p>IndoMax Mult Traders, Pune, Maharashtra, India</p>
+            <p>Email: info@indomaxgroup.com | Phone: +91 80470 18730</p>
+            <p>Connect with us on 
+                <a href="https://www.facebook.com/IndoMax-multitrades-149302112171505">Facebook</a>, 
+                <a href="https://studio.youtube.com/channel/UC_hA0WSfVxizHQ0QYJK2K4A">YouTube</a>, 
+                <a href="https://www.linkedin.com/in/bashirpathan/">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
